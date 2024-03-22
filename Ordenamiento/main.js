@@ -31,6 +31,7 @@ function contarPalabras(arreglo) {
 
 
 console.log(contarPalabras(palabras))
+
 const coordenadas = [[7,3],[2,2],[1,0],[4,3]]
 
 function calcularDistancia(coord) {
@@ -46,5 +47,16 @@ function sortDePuntosEnUnMapa(arreglo) {
 }
 
 console.log(sortDePuntosEnUnMapa(coordenadas))
+
+const letrasLocas = ["adios","hola","maximo","no","despedida"];
+
+function mixWords(arreglo) { 
+    return arreglo.sort((a, b)=> Math.random() - 0.5)
+      
+}
+
+console.log(mixWords(letrasLocas))
+
+
 
 
